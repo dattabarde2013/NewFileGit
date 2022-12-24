@@ -3,3 +3,7 @@ WebDdriver driver=new ChromeDrivewr();
 driver.get("https://www.amazon.in/");
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlywait(10,TimeUnit.Seconds);
+driver.findElement(By.xpath("")).click();
+driver.findElement(By.xpath("")).click();
+driver.findElement(By.xpath("")).click();
+driver.findElement(By.xpath("")).click();
